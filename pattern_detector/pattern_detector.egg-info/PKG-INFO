@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pattern-detector
+Version: 0.1.0
+Summary: A library for pattern detection in signals.
+Home-page: https://github.com/bulutyigit/pattern_detector
+Author: ['Ahmet Faruk Minareci', 'Yigit Utku Bulut']
+Author-email: ['ahmetfaruk.minareci@gmail.com', 'yigit.utku.bulut@outlook.com']
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+## Pattern Detector Library
+
+Pattern detector is a python library that can be used for pattern recognition in signal data.
+
+Pattern detector library is useful to mark repeating patterns in recurring signals.
+
+## Usage:
+- select your pattern in signal.
+- specify your column name which you want to find patterns in your data frame.
+
+## Note:
+Select pattern in stationary starting and ending points. 
+
